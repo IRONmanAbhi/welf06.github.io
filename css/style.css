@@ -854,6 +854,13 @@ a
 @media(max-width: 500px) 
 {	
 	
+	.landing{
+		margin-bottom: 0;
+	}
+
+	.timeline{
+		margin-top: 0;
+	}
 	.contactpage h2
 {
 	font-family: 'Lexend Deca', sans-serif;
