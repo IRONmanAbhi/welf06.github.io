@@ -338,14 +338,30 @@ a
 .projects
 {
 	text-align: center;
+	padding-left: 15vw;
+	padding-right: 15vw;
 }
 
 
 .idea
 {
 	font-size: 23px;
-	margin-bottom: 2.2%;
-	padding: 1% 0% 3%;
+	text-align: justify;
+	margin-bottom: 20px;
+}
+
+.elibility {
+	margin: 0;
+	font-size: 23px;
+	text-align: justify;
+	margin-bottom: 40px;
+}
+
+.elibility li{
+	margin: 0;
+	font-size: 21px;
+	text-align: justify;
+	margin-bottom: 10px;
 }
 
 .projpage a
@@ -358,6 +374,7 @@ a
 {
 	width: 50%;
 	background-color: var(--pric);
+	font-weight: bold;
 	border-radius: 5px;
 	padding: 1%;
 	margin: auto;
@@ -548,17 +565,24 @@ a
   		padding-right: 10vw;
 	}
 
-	.container
-	{
-		margin: 0 0px;
-		padding: 0 17px;
+	.projpage h2{
+		margin: 0;
+		padding: 0;
 	}
 
-	
+	.idea{
+		font-size: 20px;
+	}
+
+	.idea li{
+		font-size: 18px;
+	}
 
 	.projpage .submitbtn
 	{
 		width: 100%;
+		font-size: 20px;
+		font-weight: bold;
 		margin: 0;
 		margin-top: 40px;
 		border-radius: 10px;
@@ -666,13 +690,15 @@ a
   }
   .contactpage h2
   {
-	margin-top: 0;
+	margin-top: 50px;
 	padding-top: 0;
   }
 
   .contactpage p
 	{
 		font-size: 24px;
+		margin-bottom: 20px
+		;
 	}
 
   
@@ -772,6 +798,11 @@ a
   	padding-right: 5vw;
 }
 
+.projects{
+	padding-left: 5vw;
+  	padding-right: 5vw;
+}
+
 .faq-grid{
 	padding-left: 5vw;
   padding-right: 5vw;
@@ -821,7 +852,10 @@ a
 
 	.contactpage h2
 {
-	padding: 50px 1.5%;
+	margin: 0;
+	padding: 0;
+	margin-top: 50px;
+	margin-bottom: 20px;
 	font-size: 55px;
 	text-align: center;
 }
@@ -836,13 +870,15 @@ a
 	.disclogo{
 		
 		background-color: var(--secc);
-		padding: 5px 10px 5px 0px;
+		margin: 0;
+		padding: 0;
+		padding: 10px 15px 10px 15px;
 		border-radius: 10px;
-		width: 50%;
+		margin-right: 25vw;
+		width: 50vw;
 		justify-self: center;
 		justify-content: space-evenly;
-	
-		margin-top: 5%;
+		margin-top: 20px;
 		box-shadow: 0 0 0 0 var(--dark);
 	}
 
