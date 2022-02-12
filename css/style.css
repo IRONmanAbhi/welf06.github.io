@@ -421,6 +421,8 @@ a
 
 .faq-q-card{
 	background-color: var(--pric);
+	margin: auto;
+	padding: 10px;
 	border-radius: 15px;
 	margin-bottom: 0.5%;
 	padding-left: 10px;
@@ -435,30 +437,36 @@ a
 }
 
 .faq-q-card h3 {
-	padding-top: 13px;
+	font-size: 24px;
+	/* padding-top: 10px; */
 	padding-right: 10px;
-	padding-bottom: 13px;
-	float: left;
+	/* padding-bottom: 10px; */
 	display: inline;
 }
 
+.faq-q-card p {
+	font-size: 20px;
+	padding-top: 5px;
+	padding-right: 12px;
+	padding-bottom: 5px;
+
+}
 
 .faq-a-card h3 {
+	font-size: 24px;
 	padding-top: 15px;
 }
 
-.faq-q-card p {
-	padding-top: 15px;
-	padding-bottom: 10px;
-	margin-bottom: 8px;
-	padding-bottom: 15px;
-}
+
 
 
 .faq-a-card p {
 	padding-bottom: 10px;
 	font-size: 20px;
 	padding-bottom: 20px;
+	padding-left: 10px;
+	padding-right: 30px;
+	text-align: justify;
 }
 
 
@@ -821,15 +829,35 @@ a
 	padding-left: 5vw;
   padding-right: 5vw;
 }
- .faq-q-card p {
-		padding-bottom: 10px;
-		font-size: 15px;
-	}
-	
+.faq-q-card h3 {
+	font-size: 20px;
+	/* padding-top: 10px; */
+	padding-right: 5px;
+	/* padding-bottom: 10px; */
+	display: inline;
+}
+
+.faq-q-card  {
+	font-size: 16px;
+	padding-top: 5px;
+	padding-right: 8px;
+	padding-bottom: 5px;
+
+}
+
+.faq-a-card h3 {
+	padding-top: 10px;
+	font-size: 20px;
+	/* padding-top: 10px; */
+	padding-right: 5px;
+	/* padding-bottom: 10px; */
+}
 	
 	.faq-a-card p {
 		padding-bottom: 10px;
 		font-size: 15px;
+		padding-right: 8px;
+		text-align: justify;
 	}
 
 	.contactpage img{
