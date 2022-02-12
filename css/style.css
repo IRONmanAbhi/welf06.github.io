@@ -198,6 +198,7 @@ a
 .about button:hover{
 	background-color: #eeeeee;
 }
+
 .highlight {
 	color: #fff;
 	text-shadow: -2px 2px 0 #000,
@@ -378,7 +379,7 @@ a
 {
 	width: 50%;
 	background-color: var(--pric);
-	font-weight: bold;
+	font-weight: 400;
 	border-radius: 5px;
 	padding: 1%;
 	margin: auto;
