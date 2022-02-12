@@ -850,7 +850,7 @@ a
 	font-size: 20px;
 	/* padding-top: 10px; */
 	padding-right: 5px;
-	/* padding-bottom: 10px; */
+	margin-bottom: 10px;
 }
 	
 	.faq-a-card p {
@@ -942,7 +942,6 @@ a
 	.contactpage h2
 {
 	font-family: 'Lexend Deca', sans-serif;
-	padding: 50px 1.5%;
 	font-size: 50px;
 	text-align: center;
 }
