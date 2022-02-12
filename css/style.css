@@ -158,6 +158,10 @@ a
 	border: 2px solid #fff;
 }
 
+.landing .text a:hover{
+	background-color: #000;
+}
+
 .about 
 {
 	width: 100%;
