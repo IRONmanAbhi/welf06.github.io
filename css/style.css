@@ -269,6 +269,9 @@ a
   z-index: 1;
 }
 
+.orgAppl::after {
+	background-color: yellow;
+}
 /* Place the container to the left */
 .left {
   left: 0;
