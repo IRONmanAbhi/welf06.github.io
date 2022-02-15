@@ -9,6 +9,28 @@
 	--dark: #222831;
 }
 
+/* width */
+::-webkit-scrollbar {
+	width: 10px;
+   display: none;
+ }
+ 
+ /* Track */
+ ::-webkit-scrollbar-track {
+	background: #eeeeee;
+ }
+ 
+ /* Handle */
+ ::-webkit-scrollbar-thumb {
+	background: var(--secc);
+ }
+ 
+ /* Handle on hover */
+ ::-webkit-scrollbar-thumb:hover {
+	background: var(--dark);
+ }
+ 
+
 html {
    scroll-behavior: smooth;
  }
