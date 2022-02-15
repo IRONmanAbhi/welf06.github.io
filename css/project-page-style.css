@@ -99,7 +99,8 @@ button{
 	border-radius: 10px;
 	font-size: 30px;
 	color: var(--light);
-	margin-top: 35px;
+	margin-top: 45px;
+   margin-bottom: 35px;
 }
 
 .apply a :hover{
