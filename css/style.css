@@ -272,6 +272,10 @@ a
 .orgAppl::after {
 	background-color: yellow;
 }
+
+.orgApp2::after {
+	background-color: green;
+}
 /* Place the container to the left */
 .left {
   left: 0;
