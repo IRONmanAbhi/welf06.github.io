@@ -116,7 +116,9 @@ body{
    margin-left: 2%;
    margin-right: 4%;
 }
-
+.content3 a :visited {
+   color: #393E46;
+}
 button{
    background-color: var(--secc);
 	text-align: center;
