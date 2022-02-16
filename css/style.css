@@ -388,7 +388,7 @@ a
 
 .small
 {
-	height: 174px;
+	height: 180px;
 }
 
 .smaller
@@ -841,11 +841,6 @@ a
 		margin-bottom: 0;
 	}
 
-	
-
-
-
-
 	.landing 
 {
 	width: 100vw;
@@ -894,6 +889,27 @@ a
 	padding-left: 5vw;
   	padding-right: 5vw;
 }
+
+.container{
+	margin: 0;
+	padding: 0;
+}
+
+.grid {
+	margin: 0;
+	padding: 0;
+}
+
+.projpage .container{
+	display: block;
+	max-width: 1000px;
+	margin: 20px;
+}
+
+.container image{
+	height: 30px;
+}
+
 
 .faq-grid{
 	padding-left: 5vw;
@@ -969,15 +985,6 @@ a
 .landing .betalab img
 {
 	width: 350px;
-}
-
-.projpage .grid
-{
-	grid-template-columns: repeat(1, 0.75fr);
-}
-
-.card{
-	width: 285px;
 }
 
 
