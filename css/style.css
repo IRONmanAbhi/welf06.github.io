@@ -345,8 +345,13 @@ a
 
 .container
 {
-	padding: 0 20px;
+	max-width: 80%;
+	padding: 0 auto;
 	margin: 0 auto;
+}
+.projpage
+{
+	padding-bottom: 5%;
 }
 
 .projpage h1
@@ -362,30 +367,51 @@ a
 .projects
 {
 	text-align: center;
-	padding-left: 15vw;
-	padding-right: 15vw;
 }
 
-
-.idea
+.projpage .grid
 {
-	font-size: 23px;
-	text-align: justify;
-	margin-bottom: 20px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
 }
 
-.elibility {
-	margin: 0;
-	font-size: 23px;
-	text-align: justify;
-	margin-bottom: 40px;
+.card
+{
+	background-color: var(--pric);
+	border-radius: 10px;
+	padding: 20px;
+	margin: 10px;
 }
 
-.elibility li{
-	margin: 0;
-	font-size: 21px;
-	text-align: justify;
-	margin-bottom: 10px;
+.small
+{
+	height: 174px;
+}
+
+.smaller
+{
+	height: 170px;
+}
+
+.big
+{
+	height: 165px;
+}
+
+.card:hover
+{
+	background-color: #00a1a8;
+}
+
+.card h3
+{
+	padding-bottom: 10px;
+}
+
+.card p
+{
+	padding-bottom: 20px;
+	padding-top: 5px;
 }
 
 .projpage a
@@ -394,22 +420,15 @@ a
 	color: var(--dark);
 }
 
-.projpage .submitbtn
+
+
+
+.projpage a
 {
-	width: 50%;
-	background-color: var(--pric);
-	font-weight: 400;
-	border-radius: 5px;
-	padding: 1%;
-	margin: auto;
-	margin-bottom: 3%;
-	font-size: 27px;
+	text-decoration: none;
+	color: var(--dark);
 }
 
-.projpage .submitbtn:hover
-{
-	background-color: #00a1a8;
-}
 
 
 /* FAQ Page */
@@ -563,6 +582,22 @@ a
 
 @media(max-width: 1000px) 
 {	
+
+
+	.small
+{
+	height: 204px;
+}
+
+.smaller
+{
+	height: 190px;
+}
+
+.big
+{
+	height: 208px;
+}
 	
 
 	.flex
@@ -603,10 +638,7 @@ a
   		padding-right: 10vw;
 	}
 
-	.projpage h2{
-		margin: 0;
-		padding: 0;
-	}
+	
 
 	.idea{
 		font-size: 20px;
@@ -760,6 +792,22 @@ a
 
 @media(max-width: 700px){
 
+
+	.small
+{
+	height: 311px;
+}
+
+.smaller
+{
+	height: 240px;
+}
+
+.big
+{
+	height: 326px;
+}
+
 	.navbar
 	{
 		height: 110px;
@@ -789,6 +837,9 @@ a
 		padding-bottom: 0;
 		margin-bottom: 0;
 	}
+
+	
+
 
 
 
@@ -886,6 +937,21 @@ a
 
 @media(max-width: 650px) 
 {	
+
+	.small
+{
+	height: auto;
+}
+
+.smaller
+{
+	height: auto;
+}
+
+.big
+{
+	height: auto;
+}
 	
 
 	.landing .text h3
@@ -902,11 +968,15 @@ a
 	width: 350px;
 }
 
-
-.projpage .submitbtn
+.projpage .grid
 {
-	padding: 2%;
+	grid-template-columns: repeat(1, 0.75fr);
 }
+
+.card{
+	width: 285px;
+}
+
 
 	.contactpage h2
 {
