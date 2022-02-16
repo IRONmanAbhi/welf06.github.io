@@ -382,6 +382,9 @@ a
 	padding: 20px;
 	margin: 10px;
 }
+.card img{
+	padding-bottom: 10px;
+}
 
 .small
 {
