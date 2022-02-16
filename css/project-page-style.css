@@ -108,6 +108,7 @@ body{
 
 .content3{
    margin-left: 2%;
+   margin-right: 4%;
 }
 
 button{
@@ -207,6 +208,10 @@ button{
       width: auto;
       margin-left: 20px;
       margin-right: 20px;
+   }
+   .content3{
+      margin-left: 3%;
+      margin-right: 3%;
    }
 
    button{
