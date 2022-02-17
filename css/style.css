@@ -896,7 +896,6 @@ a
 }
 
 .container{
-	margin: 0;
 	padding: 0;
 }
 
@@ -1037,6 +1036,9 @@ a
 		margin-bottom: 0;
 	}
 
+	.landing .betalab img{
+		width: 300px;
+	}
 	.timeline{
 		margin-top: 0;
 	}
