@@ -401,6 +401,11 @@ a
 	height: 165px;
 }
 
+.hauto
+{
+	height: auto;
+}
+
 .card:hover
 {
 	background-color: #00a1a8;
