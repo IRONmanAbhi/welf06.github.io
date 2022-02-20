@@ -437,6 +437,30 @@ a
 	color: var(--dark);
 }
 
+.plogo
+{
+	height: 60px;
+}
+
+.plogo2
+{
+	height: 55px;
+}
+
+.plogo3
+{
+	height: 75px;
+}
+.plogo4
+{
+	height: 80px;
+}
+
+.imgsmall
+{
+	height: 60px;
+}
+
 
 
 /* FAQ Page */
@@ -1098,6 +1122,11 @@ a
 		width: 70%;
 
 	 }
+
+	 .imgsmall
+{
+	height: 40px;
+}
 }
 
 
@@ -1121,10 +1150,7 @@ a
 	width: 230px;
 }
 
-.imgsmall
-{
-	height: 50px;
-}
+
 
 
 }
