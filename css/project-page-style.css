@@ -171,6 +171,24 @@ button{
    padding-bottom: 5px;
 }
 
+.flx{
+   display: flex;
+}
+ul{
+   list-style: none;
+   justify-content: space-between;
+}
+.fontsmall
+{
+   padding: 0 0 0 5%;
+   font-size: 16px;
+}
+.fontbig
+{
+   font-size: 22px;
+}
+
+
 @media (max-width: 500px) {
    .end{
       height: fit-content;
@@ -238,5 +256,22 @@ button{
       border-radius: 10px;
       font-size: 20px;
       color: var(--light);
+   }
+
+   .fontsmall 
+   {
+      font-size: 10px;
+      padding: 0;
+   }
+
+   .fontbig
+   {
+      font-size: 12px;
+      padding: 0;
+   }
+
+   ul{
+      justify-content: space-between;
+      text-align: center;
    }
 }
