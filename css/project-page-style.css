@@ -171,6 +171,20 @@ button{
    padding-bottom: 5px;
 }
 
+
+table{
+   width: 100%;
+   border: none;
+   text-align: center;
+   border-collapse: collapse;
+   margin: 0 4%;
+   margin-bottom: 2%;
+}
+
+th{
+   border: none;
+}
+
 @media (max-width: 500px) {
    .end{
       height: fit-content;
@@ -238,5 +252,22 @@ button{
       border-radius: 10px;
       font-size: 20px;
       color: var(--light);
+   }
+
+   .fontsmall 
+   {
+      font-size: 10px;
+      padding: 0;
+   }
+
+   .fontbig
+   {
+      font-size: 12px;
+      padding: 0;
+   }
+
+   ul{
+      justify-content: space-between;
+      text-align: center;
    }
 }

@@ -386,19 +386,25 @@ a
 	padding-bottom: 10px;
 }
 
+svg{
+	border-radius: 5px;
+	box-shadow: 2px 2px 15px grey;
+	margin: 0 5px;
+}
+
 .small
 {
-	height: 200px;
+	height: 240px;
 }
 
 .smaller
 {
-	height: 170px;
+	height: 200px;
 }
 
 .big
 {
-	height: 165px;
+	height: 200px;
 }
 
 .hauto
@@ -436,6 +442,32 @@ a
 	text-decoration: none;
 	color: var(--dark);
 }
+
+.plogo
+{
+	height: 60px;
+}
+
+.plogo2
+{
+	height: 55px;
+}
+
+.plogo3
+{
+	height: 75px;
+}
+.plogo4
+{
+	height: 80px;
+}
+
+.imgsmall
+{
+	height: 60px;
+}
+
+
 
 
 
@@ -1098,6 +1130,11 @@ a
 		width: 70%;
 
 	 }
+
+	 .imgsmall
+{
+	height: 40px;
+}
 }
 
 
@@ -1122,6 +1159,8 @@ a
 }
 
 
+
+
 }
 
 @media(max-width: 360px) {
@@ -1137,3 +1176,4 @@ a
 		width: 80%;
 	 }
 }
+
