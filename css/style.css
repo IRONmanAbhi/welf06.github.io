@@ -386,9 +386,8 @@ a
 	padding-bottom: 10px;
 }
 
-svg{
+.counter{
 	border-radius: 5px;
-	box-shadow: 2px 2px 15px grey;
 	margin: 0 5px;
 }
 
