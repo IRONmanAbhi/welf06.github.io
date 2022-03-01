@@ -349,6 +349,50 @@ a
 	padding: 0 auto;
 	margin: 0 auto;
 }
+
+.assist{
+	background-color: lightgrey;
+	padding-bottom: 30px;
+}
+
+.assist h1
+{
+	font-family: 'Lexend Deca', sans-serif;
+	padding: 50px 1.5%;
+	font-size: 50px;
+	padding-left: 15vw;
+	padding-right: 15vw;
+}
+
+.assist p
+{
+	font-family: 'Lexend Deca', sans-serif;
+	padding: 0px;
+	font-size: 20px;
+	padding-left: 15vw;
+	padding-right: 15vw;
+}
+
+.assist .assistbtn
+{
+	background-color: #00ADB5;
+	text-align: center;
+	width: fit-content;
+	padding: 15px 30px;
+	margin: 30px auto 0;
+	border-radius: 15px;
+}
+
+.assist .assistbtn:hover
+{
+	background-color: #00a1a8;
+}
+
+.assist a{
+	text-decoration: none;
+	color: #000;
+}
+
 .projpage
 {
 	padding-bottom: 5%;
