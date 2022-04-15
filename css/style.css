@@ -899,6 +899,7 @@ a
 	.navbar .fl
 	{
 		flex-direction: column;
+		overflow: hidden;
 	}
 
 	.navbar ul
